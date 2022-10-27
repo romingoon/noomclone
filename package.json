@@ -1,0 +1,38 @@
+{
+  "name": "noomclone",
+  "version": "1.0.0",
+  "description": "Zoom Clone using NodeJS, WebRTC and Websockets.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romingoon/noomclone.git"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "prettier": "prettier --write .",
+    "lint": "eslint ."
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romingoon/noomclone/issues"
+  },
+  "homepage": "https://github.com/romingoon/noomclone#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.3",
+    "ws": "^8.10.0"
+  }
+}
